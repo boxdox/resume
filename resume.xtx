@@ -1,0 +1,155 @@
+% vi:ft=tex
+\documentclass{deedy-openfont}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{wrapfig}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\hypersetup{
+    pdftitle={Vaibhav Kandwal (boxdox) | Resume},
+    pdfsubject={Resume for Vaibhav Kandwal (boxdox)},
+    pdfauthor={Vaibhav Kandwal},
+    pdfkeywords={resume, software, engineer, programmer, boxdox, Vaibhav Kandwal}
+}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LAST UPDATED DATE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Vaibhav}{Kandwal}{boxdox}{
+    {\Large
+        Developer \textbullet{} Tech Enthusiast \textbullet{}
+        Open Source Contributor
+    }
+    \sectionsep{}
+}
+\sectionsep{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COLUMN ONE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.33\textwidth}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Online Links
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Digital footprint}
+\subsection{Blog}
+    \urlstyle{same}\href{https://vaibhavkandwal.com/}{{\bf vaibhavkandwal}.com}
+    \sectionsep
+
+\subsection{Email}
+    \href{mailto:vaibhavkandwal@pm.me}{{\bf vaibhavkandwal}@pm.me}
+    \sectionsep
+
+\subsection{Social}
+    \href{https://github.com/boxdox}{github/\bf boxdox} \\
+    \href{https://gitlab.com/boxdox}{gitlab/\bf boxdox} \\
+    \href{https://www.linkedin.com/in/vaibhavkandwal}{linkedin/\bf vaibhavkandwal}
+    \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Languages}
+\subsection{Proficient}
+C \textbullet{} NodeJS \textbullet{} Shell
+\sectionsep
+\subsection{Working knowledge}
+C++ \textbullet{} Python \textbullet{} ReactJS \textbullet{} SASS \textbullet{} \\
+React Native \textbullet{} Styled-Components\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TOOLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Tools}
+Vim \textbullet{} Linux \textbullet{} Git \textbullet{} Docker \textbullet{} \\
+Make/Cmake \textbullet{} TravisCI
+    \sectionsep{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Hobbies
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Hobbies}
+Literature \textbullet{} Animation \textbullet{} \\
+Playing Guitar \textbullet{} Cooking \textbullet{} \\
+Photography \textbullet{} Graphics Design
+\sectionsep{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+    \runimagesubsection{nausikhiye.png}{
+    \runsubsection{Nausikhiye}
+    \descript{| Web Developer}
+    \location{Jan 2019 - present | Bhubaneswar, India}
+}
+\sectionsep{}
+
+
+\runimagesubsection{playitup.png}{
+    \runsubsection{PlayItUp}
+    \descript{| Web Developer}
+    \location{Jul 2019 - Aug 2019 | Bhubaneswar, India}
+}
+\begin{tightemize}
+    \item Led and completed the frontend for PlayItUp, with ReactJS.
+    \item {\bf \href{https://gitlab.com/boxdox/playitup-react-redux}{https://gitlab.com/boxdox/playitup-react-redux}}
+\end{tightemize}
+\sectionsep{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+\runimagesubsection{iiit.jpg}{
+    \runsubsection{International Institute of Information Technology, Bhubaneswar} \\
+    \descript{Bachelor of Technology, Information Technology}
+    \location{Aug 2018 - present | Bhubaneswar, India}
+}
+\sectionsep{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{FAKE NEWS DETECTOR}
+\descript{| ML Developer}
+Fake news detector is basically a ML Trained model that
+helps us to detect the authenticity of information or news
+and helps us to distinguish between fake and real news.
+    \sectionsep{}
+
+\runsubsection{AUTOMATIC TRAFFIC SYSTEM (ATS) }
+\descript{| APP DEVELOPER}
+ATS is a ML Trained Model that can detect accident and send
+an SOS signal or SMS to the nearest Hospital or Ambulance
+and all this would be administered by an app which will
+connect the SOS providing agencies.
+\end{minipage}
+\end{document}  \documentclass[12pt]{article}
