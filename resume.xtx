@@ -9,7 +9,7 @@
 \fancyhf{}
 
 \hypersetup{
-    pdftitle={Vaibhav Kandwal (boxdox) | Resume},
+    pdftitle={Vaibhav Kandwal | Resume},
     pdfsubject={Resume for Vaibhav Kandwal (boxdox)},
     pdfauthor={Vaibhav Kandwal},
     pdfkeywords={resume, software, engineer, programmer, boxdox, Vaibhav Kandwal}
@@ -106,21 +106,17 @@ Photography \textbullet{} Graphics Design
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
+
     \runimagesubsection{nausikhiye.png}{
     \runsubsection{Nausikhiye}
     \descript{| Full Stack Developer}
     \location{Jan 2019 - present | Bhubaneswar, India}
-    \begin{tightemize}
-        \item Working as lead developer in the
-        startup Nausikhiye, designing backend
-        system and connecting it with frontend 
-        with latest technologies.
-
-    \end{tightemize}
 }
+    \begin{tightemize}
+        \item Working as lead developer in the startup Nausikhiye, designing backend system and connecting it with frontend with latest technologies.
+    \end{tightemize}
 
 \sectionsep{}
-
 
     \runimagesubsection{playitup.png}{
     \runsubsection{PlayItUp}
