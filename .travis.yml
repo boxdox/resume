@@ -1,21 +1,21 @@
-os: osx
-language: ruby
+os: linux
+dist: bionic
+language: minimal
 
 addons:
-    homebrew:
-        update: true
-        casks:
-            - basictex
+  apt:
+    packages:
+      - texlive
+      - texlive-xetex
 
 script:
-    - export PATH="$PATH:/Library/TeX/texbin/"
-    - make
+  - make
 
 deploy:
-    provider: releases
-    api_key: $TOKEN
-    file: resume.pdf
-    skip-cleanup: true
-    on:
-        tags: false
-        branch: master
+  provider: releases
+  api_key: $TOKEN
+  file: resume.pdf
+  skip-cleanup: true
+  on:
+    tags: true
+    branch: master

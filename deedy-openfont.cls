@@ -44,7 +44,8 @@ Last Updated on \today
     \fontsize{35pt}{60pt}
     \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #1 
     \fontspec[Path = fonts/lato/]{Lato-Reg}\selectfont #2
-    \fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont (#3)
+    %\fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont (#3)
+    \fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont #3
 } \\[5pt]
 \centering{
 \color{headings}
