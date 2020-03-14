@@ -18,17 +18,12 @@
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LAST UPDATED DATE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated{}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     TITLE NAME
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Vaibhav}{Kandwal}{boxdox}{
+\namesection{Vaibhav}{Kandwal}{}{
     {\Large
         Developer \textbullet{} Tech Enthusiast \textbullet{}
-        Open Source Contributor
+        Open Source Contributor \\
     }
     \sectionsep{}
 }
@@ -63,18 +58,19 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Languages}
 \subsection{Proficient}
-C \textbullet{} NodeJS \textbullet{} Shell
+C \textbullet{} NodeJS \textbullet{} Shell \textbullet{} ReactJS \textbullet{} \\ JavaScript 
 \sectionsep
 \subsection{Working knowledge}
-C++ \textbullet{} Python \textbullet{} ReactJS \textbullet{} SASS \textbullet{} \\
+C++ \textbullet{} Python \textbullet{} SASS \textbullet{} \\
 React Native \textbullet{} Styled-Components\\
+\textbullet{} Rust \textbullet{} GoLang
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     TOOLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Tools}
-Vim \textbullet{} Linux \textbullet{} Git \textbullet{} Docker \textbullet{} \\
-Make/Cmake \textbullet{} TravisCI
+ Linux \textbullet{} Git \textbullet{} Docker \textbullet{} Vim \textbullet{} \\
+Make/Cmake \textbullet{} TravisCI \textbullet{} \\ Jenkins \textbullet{} Cypress \textbullet{} Jest 
     \sectionsep{}
 
 
@@ -83,9 +79,16 @@ Make/Cmake \textbullet{} TravisCI
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Hobbies}
 Literature \textbullet{} Animation \textbullet{} \\
-Playing Guitar \textbullet{} Cooking \textbullet{} \\
+Guitar \textbullet{} Cooking \textbullet{} \\
 Photography \textbullet{} Graphics Design
 \sectionsep{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Communication
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Communication}
+\textbf{English}: Proficient \\
+\textbf{Hindi}: Native
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -105,21 +108,32 @@ Photography \textbullet{} Graphics Design
 \section{Experience}
     \runimagesubsection{nausikhiye.png}{
     \runsubsection{Nausikhiye}
-    \descript{| Web Developer}
+    \descript{| Full Stack Developer}
     \location{Jan 2019 - present | Bhubaneswar, India}
+    \begin{tightemize}
+        \item Working as lead developer in the
+        startup Nausikhiye, designing backend
+        system and connecting it with frontend 
+        with latest technologies.
+
+    \end{tightemize}
 }
+
 \sectionsep{}
 
 
-\runimagesubsection{playitup.png}{
+    \runimagesubsection{playitup.png}{
     \runsubsection{PlayItUp}
     \descript{| Web Developer}
     \location{Jul 2019 - Aug 2019 | Bhubaneswar, India}
 }
-\begin{tightemize}
-    \item Led and completed the frontend for PlayItUp, with ReactJS.
-    \item {\bf \href{https://gitlab.com/boxdox/playitup-react-redux}{https://gitlab.com/boxdox/playitup-react-redux}}
-\end{tightemize}
+    \begin{tightemize}
+        \item Worked on the Frontend for PlayItUp,
+        coded the webapp in ReactJS
+        \item Worked with APIs, Authentication Systems, state management with Redux and 
+        delivered the production ready webapp.
+        \item {\bf \href{https://gitlab.com/boxdox/playitup-react-redux}{https://gitlab.com/boxdox/playitup-react-redux}}
+    \end{tightemize}
 \sectionsep{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -128,8 +142,10 @@ Photography \textbullet{} Graphics Design
 \section{Education}
 \runimagesubsection{iiit.jpg}{
     \runsubsection{International Institute of Information Technology, Bhubaneswar} \\
-    \descript{Bachelor of Technology, Information Technology}
+    \descript{BTech, Information Technology}
     \location{Aug 2018 - present | Bhubaneswar, India}
+    \textbf{Expected Graduation}: 2022 \\
+    \textbf{CGPA}: 8.32
 }
 \sectionsep{}
 
@@ -138,18 +154,36 @@ Photography \textbullet{} Graphics Design
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Projects}
+
+\runsubsection{Instagram Telegram Bot}
+\descript{| JavaScript}
+A simple bot to get profile picture of any 
+instagram user. Developed to get a grasp over
+Telegram Bot API.\\
+{\bf \href{https://github.com/boxdox/insta\_dp\_telegram\_bot}{https://github.com/boxdox/insta\_dp\_telegram\_bot}}
+
+\sectionsep{}
+
+\runsubsection{Advaita}
+\descript{| ReactJS}
+FrontEnd of Advatia, a website for annual Techno Festival of IIIT Bhubaneswar. Written in ReactJS with styles in SASS, integrated with backend written in Django Rest Framework. \\
+{\bf \href{https://github.com/rajprakash00/advaita-2020}{https://github.com/rajprakash00/advaita-2020}}
+
+\sectionsep{}
+
+\runsubsection{Real-U (Rakathon)}
+\descript{| ReactJS and Firebase}
+Developed a Facial Recognition System for Payments in Real-U ecosystem, in ReactJS and Firebase SDK. Kairos API for facial recognition with Machine Learning was also integrated. This was done as a part of 24 hours hackathon conducted by Rakuten in 2019.\\
+{\bf \href{https://github.com/boxdox/rakathon-2.0}{https://github.com/boxdox/rakathon-2.0}}
+
+\sectionsep{}
+
 \runsubsection{FAKE NEWS DETECTOR}
 \descript{| ML Developer}
 Fake news detector is basically a ML Trained model that
 helps us to detect the authenticity of information or news
 and helps us to distinguish between fake and real news.
-    \sectionsep{}
 
-\runsubsection{AUTOMATIC TRAFFIC SYSTEM (ATS) }
-\descript{| APP DEVELOPER}
-ATS is a ML Trained Model that can detect accident and send
-an SOS signal or SMS to the nearest Hospital or Ambulance
-and all this would be administered by an app which will
-connect the SOS providing agencies.
+
 \end{minipage}
 \end{document}  \documentclass[12pt]{article}
