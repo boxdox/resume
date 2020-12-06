@@ -1,4 +1,3 @@
-% vi:ft=tex
 \documentclass{deedy-openfont}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
@@ -21,11 +20,11 @@
 %     TITLE NAME
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Vaibhav}{Kandwal}{}{
-    {\Large
-        Developer \textbullet{} Tech Enthusiast \textbullet{}
-        Open Source Contributor \\
+  {\Large
+      Developer \textbullet{} Tech Enthusiast \textbullet{}
+      Open Source Contributor \\
     }
-    \sectionsep{}
+  \sectionsep{}
 }
 \sectionsep{}
 
@@ -35,150 +34,158 @@
 \begin{minipage}[t]{0.33\textwidth}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Online Links
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Digital footprint}
-\subsection{Blog}
-    \urlstyle{same}\href{https://vaibhavkandwal.com/}{{\bf vaibhavkandwal}.com}
-    \sectionsep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %     Online Links
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \section{Digital footprint}
+  \subsection{Blog}
+  \urlstyle{same}\href{https://boxdox.dev/}{{\bf boxdox}.dev}
+  \sectionsep
 
-\subsection{Email}
-    \href{mailto:vaibhavkandwal@pm.me}{{\bf vaibhavkandwal}@pm.me}
-    \sectionsep
+  \subsection{Email}
+  \href{mailto:vaibhavkandwal@pm.me}{{\bf vaibhavkandwal}@pm.me}
+  \sectionsep
 
-\subsection{Social}
-    \href{https://github.com/boxdox}{github/\bf boxdox} \\
-    \href{https://gitlab.com/boxdox}{gitlab/\bf boxdox} \\
-    \href{https://www.linkedin.com/in/vaibhavkandwal}{linkedin/\bf vaibhavkandwal}
-    \sectionsep
+  \subsection{Social}
+  \href{https://github.com/boxdox}{github/\bf boxdox} \\
+  \href{https://gitlab.com/boxdox}{gitlab/\bf boxdox} \\
+  \href{https://www.linkedin.com/in/vaibhavkandwal}{linkedin/\bf vaibhavkandwal}
+  \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Languages}
-\subsection{Proficient}
-C \textbullet{} NodeJS \textbullet{} Shell \textbullet{} ReactJS \textbullet{} \\ JavaScript 
-\sectionsep
-\subsection{Working knowledge}
-C++ \textbullet{} Python \textbullet{} SASS \textbullet{} \\
-React Native \textbullet{} Styled-Components\\
-\textbullet{} Rust \textbullet{} GoLang
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %     SKILLS
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \section{Languages}
+  \subsection{Proficient}
+  C \textbullet{} NodeJS \textbullet{} Shell \textbullet{} ReactJS \textbullet{} \\ JavaScript
+  \textbullet{} TypeScript
+  \sectionsep
+  \subsection{Working knowledge}
+  C++ \textbullet{} Python \textbullet{} SASS \textbullet{} \\
+  React Native \textbullet{} Styled-Components\\
+  \textbullet{} Rust \textbullet{} GoLang
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     TOOLS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Tools}
- Linux \textbullet{} Git \textbullet{} Docker \textbullet{} Vim \textbullet{} \\
-Make/Cmake \textbullet{} TravisCI \textbullet{} \\ Jenkins \textbullet{} Cypress \textbullet{} Jest 
-    \sectionsep{}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Hobbies
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Hobbies}
-Literature \textbullet{} Animation \textbullet{} \\
-Guitar \textbullet{} Cooking \textbullet{} \\
-Photography \textbullet{} Graphics Design
-\sectionsep{}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Communication
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Communication}
-\textbf{English}: Proficient \\
-\textbf{Hindi}: Native
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %     TOOLS
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \section{Tools}
+  Linux \textbullet{} Git \textbullet{} Docker \textbullet{} Vim \textbullet{} \\
+  Make/Cmake \textbullet{} TravisCI \textbullet{} \\ Jenkins \textbullet{} Cypress \textbullet{} Jest
+  \\ \textbullet{} Github Actions
+  \sectionsep{}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     COLUMN TWO
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %     Hobbies
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \section{Hobbies}
+  Literature \textbullet{} Animation \textbullet{} \\
+  Guitar \textbullet{} Cooking \textbullet{} \\
+  Photography \textbullet{} Graphics Design
+  \sectionsep{}
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %     Communication
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \section{Communication}
+  \textbf{English}: Proficient \\
+  \textbf{Hindi}: Native
+
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %
+  %     COLUMN TWO
+  %
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.66\textwidth}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EXPERIENCE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %     EXPERIENCE
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Experience}
+  \section{Experience}
 
-    \runimagesubsection{nausikhiye.png}{
+  \runimagesubsection{polynomial.png}{
+    \runsubsection{Polynomial.AI}
+    \descript{| UX Advocate Consultant}
+    \location{May 2020 - present | Banglore, India}
+  }
+  \begin{tightemize}
+    \item Built the UI for a complex B2B Chatbot
+    \item Built the Frontend for an end to end WebApp called \bf{\href{https://learnwith.birdfin.app}{Birdfin}}.
+  \end{tightemize}
+
+  \sectionsep{}
+
+  \runimagesubsection{nausikhiye.png}{
     \runsubsection{Nausikhiye}
     \descript{| Full Stack Developer}
     \location{Jan 2019 - present | Bhubaneswar, India}
-}
-    \begin{tightemize}
-        \item Working as lead developer in the startup Nausikhiye, designing backend system and connecting it with frontend with latest technologies.
-    \end{tightemize}
+  }
+  \begin{tightemize}
+    \item Working as lead developer in the startup Nausikhiye, working as Full Stack.
+  \end{tightemize}
 
-\sectionsep{}
+  \sectionsep{}
 
-    \runimagesubsection{playitup.png}{
+  \runimagesubsection{playitup.png}{
     \runsubsection{PlayItUp}
     \descript{| Web Developer}
     \location{Jul 2019 - Aug 2019 | Bhubaneswar, India}
-}
-    \begin{tightemize}
-        \item Worked on the Frontend for PlayItUp,
-        coded the webapp in ReactJS
-        \item Worked with APIs, Authentication Systems, state management with Redux and 
-        delivered the production ready webapp.
-        \item {\bf \href{https://gitlab.com/boxdox/playitup-react-redux}{https://gitlab.com/boxdox/playitup-react-redux}}
-    \end{tightemize}
-\sectionsep{}
+  }
+  \begin{tightemize}
+    \item Worked on the Frontend for PlayItUp,
+    coded the webapp in ReactJS
+    \item Worked with APIs, Authentication, State Management with Redux and
+    delivered a production ready WebApp.
+    {\bf \href{https://gitlab.com/boxdox/playitup-react-redux}{https://gitlab.com/boxdox/playitup-react-redux}}
+  \end{tightemize}
+  \sectionsep{}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EDUCATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Education}
-\runimagesubsection{iiit.jpg}{
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %     EDUCATION
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \section{Education}
+  \runimagesubsection{iiit.jpg}{
     \runsubsection{International Institute of Information Technology, Bhubaneswar} \\
     \descript{BTech, Information Technology}
     \location{Aug 2018 - present | Bhubaneswar, India}
     \textbf{Expected Graduation}: 2022 \\
     \textbf{CGPA}: 8.32
-}
-\sectionsep{}
+  }
+  \sectionsep{}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PROJECTS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %     PROJECTS
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Projects}
+  \section{Projects}
 
-\runsubsection{Instagram Telegram Bot}
-\descript{| JavaScript}
-A simple bot to get profile picture of any 
-instagram user. Developed to get a grasp over
-Telegram Bot API.\\
-{\bf \href{https://github.com/boxdox/insta\_dp\_telegram\_bot}{https://github.com/boxdox/insta\_dp\_telegram\_bot}}
+  \runsubsection{Instagram Telegram Bot}
+  \descript{| JavaScript}
+  A simple bot to get profile picture of any
+  instagram user. Developed to get a grasp over
+  Telegram Bot API.\\
+  {\bf \href{https://github.com/boxdox/insta\_dp\_telegram\_bot}{https://github.com/boxdox/insta\_dp\_telegram\_bot}}
 
-\sectionsep{}
+  \sectionsep{}
 
-\runsubsection{Advaita}
-\descript{| ReactJS}
-FrontEnd of Advatia, a website for annual Techno Festival of IIIT Bhubaneswar. Written in ReactJS with styles in SASS, integrated with backend written in Django Rest Framework. \\
-{\bf \href{https://github.com/rajprakash00/advaita-2020}{https://github.com/rajprakash00/advaita-2020}}
+  \runsubsection{Advaita}
+  \descript{| ReactJS}
+  Frontend of Advatia, a website for annual Techno Festival of IIIT Bhubaneswar. Written in ReactJS with styles in SASS, integrated with backend written in Django Rest Framework. \\
+  {\bf \href{https://github.com/rajprakash00/advaita-2020}{https://github.com/rajprakash00/advaita-2020}}
 
-\sectionsep{}
+  \sectionsep{}
 
-\runsubsection{Real-U (Rakathon)}
-\descript{| ReactJS and Firebase}
-Developed a Facial Recognition System for Payments in Real-U ecosystem, in ReactJS and Firebase SDK. Kairos API for facial recognition with Machine Learning was also integrated. This was done as a part of 24 hours hackathon conducted by Rakuten in 2019.\\
-{\bf \href{https://github.com/boxdox/rakathon-2.0}{https://github.com/boxdox/rakathon-2.0}}
+  \runsubsection{Real-U (Rakathon)}
+  \descript{| ReactJS and Firebase}
+  Developed a Facial Recognition System for Payments in Real-U ecosystem, in ReactJS and Firebase SDK. Kairos API for facial recognition with Machine Learning was also integrated. This was done as a part of 24 hours hackathon conducted by Rakuten in 2019.\\
+  {\bf \href{https://github.com/boxdox/rakathon-2.0}{https://github.com/boxdox/rakathon-2.0}}
 
-\sectionsep{}
-
-\runsubsection{FAKE NEWS DETECTOR}
-\descript{| ML Developer}
-Fake news detector is basically a ML Trained model that
-helps us to detect the authenticity of information or news
-and helps us to distinguish between fake and real news.
+  \sectionsep{}
 
 
 \end{minipage}
