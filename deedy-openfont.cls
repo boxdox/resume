@@ -92,3 +92,8 @@ Last Updated on \today
 \newenvironment{tightemize}{
 \vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
 {\end{itemize}\vspace{-\topsep}}
+
+% Numbered Lists with fewer gaps command
+\newenvironment{tightenumerate}{
+\vspace{-\topsep}\begin{enumerate}\itemsep1pt \parskip0pt \parsep0pt}
+{\end{enumerate}\vspace{-\topsep}}

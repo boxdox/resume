@@ -53,25 +53,34 @@
   \sectionsep
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %     EDUCATION
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \section{Education}
+    \runsubsection{IIIT, Bhubaneswar} \\
+    \descript{BTech, Information Technology}
+    \location{Aug 2018 - present | Bhubaneswar, India}
+    \textbf{Expected Graduation}: 2022 \\
+    \textbf{CGPA}: 8.13
+  \sectionsep{}
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %     SKILLS
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \section{Languages}
+  \section{Skills}
   \subsection{Proficient}
-  C \textbullet{} NodeJS \textbullet{} Shell \textbullet{} ReactJS \textbullet{} \\ JavaScript
-  \textbullet{} TypeScript
+  Javascript \textbullet{} Typescript \textbullet{} NodeJS \textbullet{} \\
+  ReactJS/NextJS \textbullet{} Python \textbullet{} Shell \\
   \sectionsep
   \subsection{Working knowledge}
-  C++ \textbullet{} Python \textbullet{} SASS \textbullet{} \\
-  React Native \textbullet{} Styled-Components\\
-  \textbullet{} Rust \textbullet{} GoLang
+  C \textbullet{} C++ \textbullet{} React Native \textbullet{} \\ 
+  Rust \textbullet{} GoLang \textbullet{} Assembly
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %     TOOLS
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \section{Tools}
-  Linux \textbullet{} Git \textbullet{} Docker \textbullet{} Vim \textbullet{} \\
-  Make/Cmake \textbullet{} TravisCI \textbullet{} \\ Jenkins \textbullet{} Cypress \textbullet{} Jest
-  \\ \textbullet{} Github Actions
+  Linux \textbullet{} Git \textbullet{} Docker \textbullet{} Azure \textbullet{} Vim \textbullet{} \\
+  Make/Cmake \textbullet{} Jenkins \textbullet{} Cypress \textbullet{} \\ Jest \textbullet{} Github Actions \textbullet{} Redis 
   \sectionsep{}
 
 
@@ -80,8 +89,8 @@
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \section{Hobbies}
   Literature \textbullet{} Animation \textbullet{} \\
-  Guitar \textbullet{} Cooking \textbullet{} \\
-  Photography \textbullet{} Graphics Design
+  Playing Guitar \textbullet{} Cooking \textbullet{} \\
+  Photography \textbullet{} UI/UX Designing
   \sectionsep{}
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -108,54 +117,33 @@
 
   \section{Experience}
 
+  \runimagesubsection{dell.png}{
+    \runsubsection{Dell}
+    \descript{| Undergraduate Intern}
+    \location{June 2021 - July 2021 | Remote}
+  }
+    Worked as a summer intern on a filtering engine for databases with SQL-style queries, along with addition of cache layer and containerizing the application. It was built using FastAPI on Python.
+  \sectionsep{}
+  
   \runimagesubsection{polynomial.png}{
     \runsubsection{Polynomial.AI}
     \descript{| UX Advocate Consultant}
-    \location{May 2020 - present | Banglore, India}
+    \location{May 2020 - June 2021 | Bangalore, India}
   }
-  \begin{tightemize}
-    \item Built the UI for a complex B2B Chatbot
-    \item Built the Frontend for an end to end WebApp called \bf{\href{https://learnwith.birdfin.app}{Birdfin}}.
-  \end{tightemize}
+  Worked as Fullstack and Devops Engineer. Led and worked on multiple projects and PoCs, including chatbots, webapps and NLP interactions.
 
   \sectionsep{}
 
-  \runimagesubsection{nausikhiye.png}{
-    \runsubsection{Nausikhiye}
+  \runimagesubsection{freelance.png}{
+    \runsubsection{Freelancing}
     \descript{| Full Stack Developer}
-    \location{Jan 2019 - present | Bhubaneswar, India}
+    \location{May 2017 - present | Bhubaneswar, India}
   }
   \begin{tightemize}
-    \item Working as lead developer in the startup Nausikhiye, working as Full Stack.
+    \item Wrote the front-end for a local business named PlayItUp, with performance optimization and state management
+    \item Worked on setting up e-commerce store of Nausikhiye
   \end{tightemize}
 
-  \sectionsep{}
-
-  \runimagesubsection{playitup.png}{
-    \runsubsection{PlayItUp}
-    \descript{| Web Developer}
-    \location{Jul 2019 - Aug 2019 | Bhubaneswar, India}
-  }
-  \begin{tightemize}
-    \item Worked on the Frontend for PlayItUp,
-    coded the webapp in ReactJS
-    \item Worked with APIs, Authentication, State Management with Redux and
-    delivered a production ready WebApp.
-    {\bf \href{https://gitlab.com/boxdox/playitup-react-redux}{https://gitlab.com/boxdox/playitup-react-redux}}
-  \end{tightemize}
-  \sectionsep{}
-
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  %     EDUCATION
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \section{Education}
-  \runimagesubsection{iiit.jpg}{
-    \runsubsection{International Institute of Information Technology, Bhubaneswar} \\
-    \descript{BTech, Information Technology}
-    \location{Aug 2018 - present | Bhubaneswar, India}
-    \textbf{Expected Graduation}: 2022 \\
-    \textbf{CGPA}: 8.32
-  }
   \sectionsep{}
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -164,26 +152,38 @@
 
   \section{Projects}
 
-  \runsubsection{Instagram Telegram Bot}
-  \descript{| JavaScript}
-  A simple bot to get profile picture of any
-  instagram user. Developed to get a grasp over
-  Telegram Bot API.\\
-  {\bf \href{https://github.com/boxdox/insta\_dp\_telegram\_bot}{https://github.com/boxdox/insta\_dp\_telegram\_bot}}
+  \runsubsection{Dynamic Query Engine}
+  \descript{| Dell | Python and FastAPI}
+  Worked on a research PoC for a rule based filtering engine that works directly on top of databases. Dataset is read from S3 compatible storage and cached for future use. This functionality was exposed as a REST endpoint. Built using FastAPI and Python.
 
   \sectionsep{}
 
-  \runsubsection{Advaita}
-  \descript{| ReactJS}
-  Frontend of Advatia, a website for annual Techno Festival of IIIT Bhubaneswar. Written in ReactJS with styles in SASS, integrated with backend written in Django Rest Framework. \\
-  {\bf \href{https://github.com/rajprakash00/advaita-2020}{https://github.com/rajprakash00/advaita-2020}}
+  \runsubsection{PoC for GE Healthcare}
+  \descript{| Polynomial.ai}
+  Worked on two PoCs for GE Healthcare:
+  \begin{tightenumerate}
+    \item A mobile app (TWA supported) that allows equipment readings directly on doctor's smartphone, over the secure hospital network. Key features were: 60FPS graphs and processing multiple graphs over a websocket connection, which was fed through a Redis/Kafka queue. Built using ReactJS, Firebase and SciCharts
+    \item Worked on GUI test automation using Squish Framework for a QT based healthcare application. Test cases were written with JS
+  \end{tightenumerate}
 
   \sectionsep{}
 
-  \runsubsection{Real-U (Rakathon)}
-  \descript{| ReactJS and Firebase}
-  Developed a Facial Recognition System for Payments in Real-U ecosystem, in ReactJS and Firebase SDK. Kairos API for facial recognition with Machine Learning was also integrated. This was done as a part of 24 hours hackathon conducted by Rakuten in 2019.\\
-  {\bf \href{https://github.com/boxdox/rakathon-2.0}{https://github.com/boxdox/rakathon-2.0}}
+  \runsubsection{Birdfin}
+  \descript{| Polynomial.ai | ReactJS and Redux}
+  Led the front-end team for writing the PWA. Features included: A global state management solution, complex UI interactions like multi-step stateful forms, a micro social networking site builtin and offline support and caching with service workers, along with an Admin dashboard to control all aspects of the webapp.\\
+  {\bf \href{https://learnwith.birdfin.app}{https://learnwith.birdfin.app}}
+
+  \sectionsep{}
+
+  \runsubsection{Quilt.ai}
+  \descript{| Polynomial.ai | ReactJS and Redux}
+  Worked on the first version of Quilt dashboard UI, filtering and selecting among 3 million data points and displaying respective anlaytics. Features included virtualizing the data in a table and allowing multi-selection filters.
+
+  \sectionsep{}
+
+  \runsubsection{Lens}
+  \descript{| Polynomial.ai | ReactJS}
+  Worked on a Chatbot UI that takes input via text/voice and returns rich cards, similar to Google Assistant. Also worked on a generic Chatbot UI template that was API agnostic and able to be plugged and played.
 
   \sectionsep{}
 
